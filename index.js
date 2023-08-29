@@ -35,7 +35,7 @@ app.post("/", (req,res) =>{
       res.write("<h1> Name of the pokemon, you searched is " + pokemonName + "</h1>");
       res.write("<img src ='"+ pokemonImg + "'>");
       res.write("<h5> Main type of pokemon" + pokeType + "</h5>")
-
+      res.write("test for git learning")
       res.send()
     })
   });
